@@ -5,9 +5,13 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
+        flexDirection: 'row',
+        paddingTop: 30,
+    },
+    textBox: {
+        width: '60%',
     },
     title: {
-        marginTop: 15,
         color: '#FFFFFF',
         textAlign: 'center',
         fontSize: 16,
@@ -18,9 +22,10 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         fontSize: 14,
     },
-    photo: {
+    image: {
         width: 100,
-        height: 100,
+        height: 150,
+        borderRadius: 5,
     }
 });
 

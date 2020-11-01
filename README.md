@@ -1,2 +1,3 @@
-# ProjetoRN
-Projeto base para desenvolvimento de aplicativo.
+# GD App
+
+Aplicativo para apresentar filmes

@@ -3,12 +3,16 @@ import { Text, View, Image } from 'react-native';
 
 import styles from './styles';
 
-const ProfileList = ({ data }) => {
-    const { name, photo } = data;
+const MoviesList = ({ data }) => {
+    const { title, year, photo } = data;
 
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>{name}</Text>
+            <View style={styles.textBox}>
+                <Text style={styles.title}>{title}</Text>
+
+                <Text style={styles.caption}>{year}</Text>
+            </View>
             <Image
                 style={styles.image}
                 source={photo}
@@ -17,4 +21,4 @@ const ProfileList = ({ data }) => {
     );
 }
 
-export default ProfileList;
+export default MoviesList;

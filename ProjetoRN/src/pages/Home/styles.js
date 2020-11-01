@@ -1,14 +1,16 @@
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
+    mainContainer: {
+        flex: 1
+    },
     container: {
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
     },
     box: {
-        width: 220,
-        height: 250,
+        width: '60%',
         padding: 25,
         backgroundColor: '#C656E0',
         borderRadius: 6,
@@ -25,7 +27,7 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
     },
     main: {
-        marginTop: 50,
+        paddingVertical: 40,
         alignItems: 'center',
         justifyContent: 'center',
     },
